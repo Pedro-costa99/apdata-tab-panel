@@ -18,8 +18,8 @@
 
 ### 1️⃣ Clone o repositório
 
-- `git clone https://github.com/Pedro-costa99/interface-apdata.git`
-- `cd interface-apdata`
+- `git clone https://github.com/Pedro-costa99/apdata-tab-panel.git`
+- `cd apdata-tab-panel`
 - `code .`
 
 ### 2️⃣ Instale as dependências

@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import TrafficLightContainer from "./components/TrafficLightContainer";
+import TabContainer from "./components/TabContainer";
 
 const theme = createTheme({
   typography: {
@@ -12,8 +12,8 @@ const theme = createTheme({
 
 const router = createBrowserRouter([
   {
-    path: "/interface-apdata/",
-    element: <TrafficLightContainer />,
+    path: "/apdata-tab-panel/",
+    element: <TabContainer />,
   },
 ]);
 
