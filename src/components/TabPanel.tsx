@@ -43,7 +43,9 @@ export default function TabPanel() {
       sx={{
         width: "90%",
         maxWidth: "593px",
-        minHeight: "300px",
+        // adicionei altura mínima para melhorar experiência
+        // para deixar a navegação estável
+        minHeight: { xs: "460px", md: "300px" },
         borderRadius: 12,
         border: "1px solid #D2D2D2",
         padding: "24px",
@@ -68,7 +70,6 @@ export default function TabPanel() {
           },
         }}
         sx={{
-          marginLeft: "-35px",
           fontSize: "16px",
           "& .MuiTab-root.Mui-selected": {
             color: "#0A7D45",
