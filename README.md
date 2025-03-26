@@ -35,4 +35,15 @@
 
 - Este projeto foi desenvolvido exclusivamente para o processo seletivo da empresa **X** e não possui uma licença pública.
 
+---
+
+## 🖥️ UI Implementada - PC
+
+![UI implementada - PC](public/images/img-pc.png)
+
+## 📱 UI Implementada - Mobile
+
+![UI Implementada - Mobile](public/images/img-mobile.png)
+
+
 
