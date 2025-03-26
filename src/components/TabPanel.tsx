@@ -12,7 +12,7 @@ function TabContent({ children, value, index }: TabContentProps) {
   return (
     <div role="tabpanel" hidden={value !== index}>
       {value === index && (
-        <Box sx={{ padding: "16px 4px" }}>
+        <Box sx={{ padding: "16px 2px" }}>
           <Typography
             sx={{
               fontWeight: 600,
@@ -60,7 +60,7 @@ export default function TabPanel() {
         value={tabIndex}
         onChange={handleChange}
         variant="scrollable"
-        scrollButtons
+        scrollButtons="auto"
         allowScrollButtonsMobile
         slotProps={{
           indicator: {
